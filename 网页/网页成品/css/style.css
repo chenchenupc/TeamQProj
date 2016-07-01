@@ -613,8 +613,13 @@ ul.nav.navbar-nav {
 .agileits-a-about-left {
     padding: 0;
 }
-.agileits-a-about-grids {
+.agileits-a-about-grids-denglu {
     margin: 4em 22em 0 22em;
+    background: #FFF;
+    padding: 1em;
+}
+.agileits-a-about-grids {
+    margin: 4em 0 0 0;
     background: #FFF;
     padding: 1em;
 }
