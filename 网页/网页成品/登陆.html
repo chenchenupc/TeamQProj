@@ -77,9 +77,12 @@
 					</div>
 					<div class="contact-form-grid">
 						<form action="#" method="post">
-							<input type="text" name="账户" placeholder="请输入用户名" required="">
-							<input type="password" name="密码" placeholder="请输入密码" required="">
-							<p><a href="登陆的链接"><button class="btn1">登陆</button></a></p>
+							<input id="url" type="text" name="账户" placeholder="请输入用户名" required="" >
+							<input type="password" name="密码" placeholder="请输入密码" >
+
+<a onclick="window.open(document.getElementById('url').value+'.html');"/><button class="btn1" a onclick="window.close();"/>登陆
+</button></a>
+
 						</form>
 					 </div>
 
